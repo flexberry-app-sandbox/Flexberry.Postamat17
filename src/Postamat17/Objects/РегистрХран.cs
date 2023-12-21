@@ -33,7 +33,8 @@ namespace IIS.Postamat17
             "Хранение as \'Хранение\'",
             "Хранение.Продления as \'Продления\'",
             "Хранение.ДатаНачала as \'Дата начала хранения\'",
-            "Хранение.ДатаЗавершения as \'Дата завершения хранения\'"}, Hidden=new string[] {
+            "Хранение.ДатаЗавершения as \'Дата завершения хранения\'",
+            "Хранение.Ячейка.НомерЯчейки as \'Номер ячейки\'"}, Hidden=new string[] {
             "Хранение.Продления"})]
     [MasterViewDefineAttribute("РегистрХранE", "Хранение", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Продления")]
     public class РегистрХран : ICSSoft.STORMNET.DataObject

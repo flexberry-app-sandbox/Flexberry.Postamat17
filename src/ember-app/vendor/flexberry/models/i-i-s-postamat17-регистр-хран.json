@@ -33,7 +33,29 @@
           "lookupValue": "Продления",
           "lookupValueField": "продления",
           "relationName": "Хранение",
-          "belongsTo": [],
+          "belongsTo": [
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "Хранение.Ячейка",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "номерЯчейки",
+                  "caption": "Номер ячейки",
+                  "hidden": false,
+                  "index": 4
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "ячейка",
+              "relatedTo": "i-i-s-postamat17-ячейка",
+              "inverse": null
+            }
+          ],
           "hidden": false,
           "attrs": [
             {

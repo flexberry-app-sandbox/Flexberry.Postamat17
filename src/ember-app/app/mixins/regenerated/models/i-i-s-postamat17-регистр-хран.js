@@ -31,7 +31,10 @@ export let defineProjections = function (modelClass) {
     хранение: belongsTo('i-i-s-postamat17-хранение', 'Хранение', {
       продления: attr('Продления', { index: 1, hidden: true }),
       датаНачала: attr('Дата начала хранения', { index: 2 }),
-      датаЗавершения: attr('Дата завершения хранения', { index: 3 })
+      датаЗавершения: attr('Дата завершения хранения', { index: 3 }),
+      ячейка: belongsTo('i-i-s-postamat17-ячейка', '', {
+        номерЯчейки: attr('Номер ячейки', { index: 4 })
+      }, { index: -1, hidden: true })
     }, { index: 0, displayMemberPath: 'продления' })
   });
 };

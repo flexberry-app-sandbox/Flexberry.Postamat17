@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-postamat17-посылка-e",
+  "editForm": "i-i-s-postamat17-посылка-e",
+  "external": false,
+  "caption": "Посылка",
+  "name": "IISPostamat17ПосылкаL",
+  "className": "ПосылкаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-postamat17-посылка",
+      "modelProjection": "ПосылкаL"
+    }
+  ]
+}

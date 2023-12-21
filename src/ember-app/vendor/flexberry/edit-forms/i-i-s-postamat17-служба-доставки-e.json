@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "БазаКлючей",
+      "projection": "БазаКлючейL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Служба доставки",
+  "name": "IISPostamat17СлужбаДоставкиE",
+  "className": "СлужбаДоставкиE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-postamat17-служба-доставки",
+      "modelProjection": "СлужбаДоставкиE"
+    }
+  ]
+}

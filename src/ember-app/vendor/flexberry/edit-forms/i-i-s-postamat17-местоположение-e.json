@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "СлужбаДоставки",
+      "projection": "СлужбаДоставкиL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Местоположение",
+  "name": "IISPostamat17МестоположениеE",
+  "className": "МестоположениеE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-postamat17-местоположение",
+      "modelProjection": "МестоположениеE"
+    }
+  ]
+}

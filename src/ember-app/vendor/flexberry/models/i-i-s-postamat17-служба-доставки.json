@@ -1,0 +1,169 @@
+﻿{
+  "name": "IISPostamat17СлужбаДоставки",
+  "modelName": "i-i-s-postamat17-служба-доставки",
+  "className": "СлужбаДоставки",
+  "nameSpace": "IIS.Postamat17",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "адрес",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "наименвоание",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "номер",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "номерТелефона",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "базаКлючей",
+      "relatedTo": "i-i-s-postamat17-база-ключей",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "СлужбаДоставкиE",
+      "modelName": "i-i-s-postamat17-служба-доставки",
+      "attrs": [
+        {
+          "name": "номер",
+          "caption": "Номер",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "наименвоание",
+          "caption": "Наименвоание",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "адрес",
+          "caption": "Адрес",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "номерТелефона",
+          "caption": "Номер телефона",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "НомерБазы",
+          "lookupValueField": "номерБазы",
+          "relationName": "БазаКлючей",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "номерБазы",
+              "caption": "Номер базы",
+              "hidden": true,
+              "index": 5
+            }
+          ],
+          "index": 4,
+          "type": "standard",
+          "caption": "База ключей",
+          "name": "базаКлючей",
+          "relatedTo": "i-i-s-postamat17-база-ключей",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "СлужбаДоставкиL",
+      "modelName": "i-i-s-postamat17-служба-доставки",
+      "attrs": [
+        {
+          "name": "номер",
+          "caption": "Номер",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "наименвоание",
+          "caption": "Наименвоание",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "адрес",
+          "caption": "Адрес",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "номерТелефона",
+          "caption": "Номер телефона",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "БазаКлючей",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "номерБазы",
+              "caption": "Номер базы",
+              "hidden": false,
+              "index": 4
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Номер базы",
+          "name": "базаКлючей",
+          "relatedTo": "i-i-s-postamat17-база-ключей",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

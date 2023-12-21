@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-postamat17-база-ключей-e",
+  "editForm": "i-i-s-postamat17-база-ключей-e",
+  "external": false,
+  "caption": "База ключей",
+  "name": "IISPostamat17БазаКлючейL",
+  "className": "БазаКлючейL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-postamat17-база-ключей",
+      "modelProjection": "БазаКлючейL"
+    }
+  ]
+}

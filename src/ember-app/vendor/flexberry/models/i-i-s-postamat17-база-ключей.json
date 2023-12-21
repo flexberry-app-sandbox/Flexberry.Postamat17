@@ -1,0 +1,68 @@
+﻿{
+  "name": "IISPostamat17БазаКлючей",
+  "modelName": "i-i-s-postamat17-база-ключей",
+  "className": "БазаКлючей",
+  "nameSpace": "IIS.Postamat17",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "номерБазы",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [
+    {
+      "name": "ключ",
+      "relatedTo": "i-i-s-postamat17-ключ",
+      "inverse": "базаКлючей"
+    }
+  ],
+  "projections": [
+    {
+      "name": "БазаКлючейE",
+      "modelName": "i-i-s-postamat17-база-ключей",
+      "attrs": [
+        {
+          "name": "номерБазы",
+          "caption": "Номер базы",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "КлючE",
+          "caption": "Ключ",
+          "name": "ключ",
+          "relatedTo": "i-i-s-postamat17-ключ",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "БазаКлючейL",
+      "modelName": "i-i-s-postamat17-база-ключей",
+      "attrs": [
+        {
+          "name": "номерБазы",
+          "caption": "Номер базы",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

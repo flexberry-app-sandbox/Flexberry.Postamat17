@@ -1,0 +1,78 @@
+﻿{
+  "applicationCaption": "Postamat17",
+  "applicationTitle": "Postamat17",
+  "items": [
+    {
+      "link": null,
+      "menuName": "postamat17",
+      "caption": "Postamat17",
+      "title": "Postamat17",
+      "children": [
+        {
+          "link": "i-i-s-postamat17-база-ключей-l",
+          "menuName": null,
+          "caption": "База ключей",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-postamat17-уведомление-l",
+          "menuName": null,
+          "caption": "Уведомление",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-postamat17-хранение-l",
+          "menuName": null,
+          "caption": "Хранение",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-postamat17-пользователь-l",
+          "menuName": null,
+          "caption": "Пользователь",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-postamat17-постамат-l",
+          "menuName": null,
+          "caption": "Постамат",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-postamat17-посылка-l",
+          "menuName": null,
+          "caption": "Посылка",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-postamat17-служба-доставки-l",
+          "menuName": null,
+          "caption": "Служба доставки",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-postamat17-местоположение-l",
+          "menuName": null,
+          "caption": "Местоположение",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-postamat17-ячейка-l",
+          "menuName": null,
+          "caption": "Ячейка",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

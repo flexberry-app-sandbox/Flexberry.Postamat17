@@ -1,0 +1,93 @@
+<h3 class="ui header">{{t "forms.i-i-s-postamat17-посылка-e.caption"}}</h3>
+
+<form class="ui form flexberry-vertical-form" role="form">
+  {{flexberry-error error=error}}
+  <div class="field">
+    <div class="flexberry-edit-panel">
+      {{#unless readonly}}
+        <button class="ui button save-button" {{action "save"}}>
+          {{t "forms.edit-form.save-button-text"}}
+        </button>
+        {{#unless model.isNew}}
+          <button class="ui button save-del-button" {{action "delete"}}>
+            {{t "forms.edit-form.delete-button-text"}}
+          </button>
+        {{/unless}}
+      {{/unless}}
+      <button class="ui button close-button" {{action "close"}}>
+        {{t "forms.edit-form.close-button-text"}}
+      </button>
+    </div>
+  </div>
+  <div class="field flexberry-validationsummary-container">
+    <div class="sixteen wide">
+      {{flexberry-validationsummary errors=(v-get validationObject "messages")}}
+    </div>
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.номер
+      class=(if (v-get validationModel "номер" "isInvalid") "error")
+      label=(t "forms.i-i-s-postamat17-посылка-e.номер-caption")
+      data-test-i-i-s-postamat17-посылка-e-номер=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "номер" "message")}}
+  </div>
+  <div class="field" data-test-i-i-s-postamat17-посылка-e-статус="true">
+    <label>{{t "forms.i-i-s-postamat17-посылка-e.статус-caption"}}</label>
+    {{flexberry-dropdown
+      items=(flexberry-enum "i-i-s-postamat17-статус")
+      value=model.статус
+      class=(if (v-get validationModel "статус" "isInvalid") "error")
+      readonly=readonly
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "статус" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-postamat17-посылка-e.пользователь-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.пользователь
+      displayAttributeName="фИО"
+      autocomplete=true
+      relationName="пользователь"
+      projection="ПользовательL"
+      title=(t "forms.i-i-s-postamat17-посылка-e.пользователь-caption")
+      readonly=readonly
+      componentName="пользовательLookup"
+      class=(if (v-get validationModel "пользователь" "isInvalid") "error")
+      data-test-i-i-s-postamat17-посылка-e-пользователь=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "пользователь" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-postamat17-посылка-e.местоположение-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.местоположение
+      displayAttributeName="информация"
+      autocomplete=true
+      relationName="местоположение"
+      projection="МестоположениеL"
+      title=(t "forms.i-i-s-postamat17-посылка-e.местоположение-caption")
+      readonly=readonly
+      componentName="местоположениеLookup"
+      class=(if (v-get validationModel "местоположение" "isInvalid") "error")
+      data-test-i-i-s-postamat17-посылка-e-местоположение=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "местоположение" "message")}}
+  </div>
+  <div class="field" data-test-i-i-s-postamat17-посылка-e-местоположение-состояние="true">
+    <label>{{t "forms.i-i-s-postamat17-посылка-e.местоположение.состояние-caption"}}</label>
+    {{flexberry-dropdown
+      items=(flexberry-enum "i-i-s-postamat17-состояние")
+      value=model.местоположение.состояние
+      class=(if (v-get validationModel.местоположение "состояние" "isInvalid") "error")
+      readonly=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel.местоположение "состояние" "message")}}
+  </div>
+</form>

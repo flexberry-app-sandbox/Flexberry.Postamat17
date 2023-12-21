@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-postamat17-местоположение-e",
+  "editForm": "i-i-s-postamat17-местоположение-e",
+  "external": false,
+  "caption": "Местоположение",
+  "name": "IISPostamat17МестоположениеL",
+  "className": "МестоположениеL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-postamat17-местоположение",
+      "modelProjection": "МестоположениеL"
+    }
+  ]
+}

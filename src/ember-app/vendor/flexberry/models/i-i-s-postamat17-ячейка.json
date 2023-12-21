@@ -1,0 +1,75 @@
+﻿{
+  "name": "IISPostamat17Ячейка",
+  "modelName": "i-i-s-postamat17-ячейка",
+  "className": "Ячейка",
+  "nameSpace": "IIS.Postamat17",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "номерЯчейки",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "статус",
+      "type": "i-i-s-postamat17-ячейки",
+      "flexberryType": "Ячейки",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ЯчейкаE",
+      "modelName": "i-i-s-postamat17-ячейка",
+      "attrs": [
+        {
+          "name": "номерЯчейки",
+          "caption": "Номер ячейки",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "статус",
+          "caption": "Статус",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ЯчейкаL",
+      "modelName": "i-i-s-postamat17-ячейка",
+      "attrs": [
+        {
+          "name": "номерЯчейки",
+          "caption": "Номер ячейки",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "статус",
+          "caption": "Статус",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-postamat17-ячейка-e",
+  "editForm": "i-i-s-postamat17-ячейка-e",
+  "external": false,
+  "caption": "Ячейка",
+  "name": "IISPostamat17ЯчейкаL",
+  "className": "ЯчейкаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-postamat17-ячейка",
+      "modelProjection": "ЯчейкаL"
+    }
+  ]
+}

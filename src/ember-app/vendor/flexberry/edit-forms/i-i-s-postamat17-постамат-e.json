@@ -1,0 +1,39 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "СлужбаДоставки",
+      "projection": "СлужбаДоставкиL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "БазаКлючей",
+      "projection": "БазаКлючейL",
+      "detailModelName": null
+    },
+    {
+      "master": "хранение",
+      "displayAttributeName": "продления",
+      "required": true,
+      "relationName": "РегистрХран.Хранение",
+      "projection": "ХранениеL",
+      "detailModelName": "i-i-s-postamat17-регистр-хран"
+    }
+  ],
+  "external": false,
+  "caption": "Постамат",
+  "name": "IISPostamat17ПостаматE",
+  "className": "ПостаматE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-postamat17-постамат",
+      "modelProjection": "ПостаматE"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+﻿{
+  "name": "IISPostamat17Местоположение",
+  "modelName": "i-i-s-postamat17-местоположение",
+  "className": "Местоположение",
+  "nameSpace": "IIS.Postamat17",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "информация",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "номер",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "состояние",
+      "type": "i-i-s-postamat17-состояние",
+      "flexberryType": "Состояние",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "службаДоставки",
+      "relatedTo": "i-i-s-postamat17-служба-доставки",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "МестоположениеE",
+      "modelName": "i-i-s-postamat17-местоположение",
+      "attrs": [
+        {
+          "name": "номер",
+          "caption": "Номер",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "состояние",
+          "caption": "Состояние",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "информация",
+          "caption": "Информация",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Наименвоание",
+          "lookupValueField": "наименвоание",
+          "relationName": "СлужбаДоставки",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наименвоание",
+              "caption": "Наименвоание",
+              "hidden": true,
+              "index": 4
+            }
+          ],
+          "index": 3,
+          "type": "standard",
+          "caption": "Служба доставки",
+          "name": "службаДоставки",
+          "relatedTo": "i-i-s-postamat17-служба-доставки",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "МестоположениеL",
+      "modelName": "i-i-s-postamat17-местоположение",
+      "attrs": [
+        {
+          "name": "номер",
+          "caption": "Номер",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "состояние",
+          "caption": "Состояние",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "информация",
+          "caption": "Информация",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "СлужбаДоставки",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наименвоание",
+              "caption": "Наименвоание",
+              "hidden": false,
+              "index": 3
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Наименвоание",
+          "name": "службаДоставки",
+          "relatedTo": "i-i-s-postamat17-служба-доставки",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

@@ -69,7 +69,9 @@ export let defineProjections = function (modelClass) {
     }, { index: 5, displayMemberPath: 'номерБазы' }),
     регистрХран: hasMany('i-i-s-postamat17-регистр-хран', 'Регистр хранения', {
       хранение: belongsTo('i-i-s-postamat17-хранение', 'Хранение', {
-        продления: attr('Продления', { index: 1, hidden: true })
+        продления: attr('Продления', { index: 1, hidden: true }),
+        датаНачала: attr('Дата начала хранения', { index: 2 }),
+        датаЗавершения: attr('Дата завершения хранения', { index: 3 })
       }, { index: 0, displayMemberPath: 'продления' })
     })
   });

@@ -29,7 +29,9 @@ export let ValidationRules = {
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('РегистрХранE', 'i-i-s-postamat17-регистр-хран', {
     хранение: belongsTo('i-i-s-postamat17-хранение', 'Хранение', {
-      продления: attr('Продления', { index: 1, hidden: true })
+      продления: attr('Продления', { index: 1, hidden: true }),
+      датаНачала: attr('Дата начала хранения', { index: 2 }),
+      датаЗавершения: attr('Дата завершения хранения', { index: 3 })
     }, { index: 0, displayMemberPath: 'продления' })
   });
 };

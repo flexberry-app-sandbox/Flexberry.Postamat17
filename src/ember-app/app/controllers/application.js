@@ -28,19 +28,19 @@ export default Controller.extend({
             link: 'i-i-s-postamat17-хранение-l',
             caption: i18n.t('forms.application.sitemap.постамат.i-i-s-postamat17-хранение-l.caption'),
             title: i18n.t('forms.application.sitemap.постамат.i-i-s-postamat17-хранение-l.title'),
-            icon: 'address card',
+            icon: 'phone',
             children: null
           }, {
             link: 'i-i-s-postamat17-постамат-l',
             caption: i18n.t('forms.application.sitemap.постамат.i-i-s-postamat17-постамат-l.caption'),
             title: i18n.t('forms.application.sitemap.постамат.i-i-s-postamat17-постамат-l.title'),
-            icon: 'chart line',
+            icon: 'archive',
             children: null
           }, {
             link: 'i-i-s-postamat17-ячейка-l',
             caption: i18n.t('forms.application.sitemap.постамат.i-i-s-postamat17-ячейка-l.caption'),
             title: i18n.t('forms.application.sitemap.постамат.i-i-s-postamat17-ячейка-l.title'),
-            icon: 'paperclip',
+            icon: 'table',
             children: null
           }]
         }, {
@@ -52,13 +52,13 @@ export default Controller.extend({
             link: 'i-i-s-postamat17-местоположение-l',
             caption: i18n.t('forms.application.sitemap.служба-доставки.i-i-s-postamat17-местоположение-l.caption'),
             title: i18n.t('forms.application.sitemap.служба-доставки.i-i-s-postamat17-местоположение-l.title'),
-            icon: 'tags',
+            icon: 'chart line',
             children: null
           }, {
             link: 'i-i-s-postamat17-служба-доставки-l',
             caption: i18n.t('forms.application.sitemap.служба-доставки.i-i-s-postamat17-служба-доставки-l.caption'),
             title: i18n.t('forms.application.sitemap.служба-доставки.i-i-s-postamat17-служба-доставки-l.title'),
-            icon: 'address card',
+            icon: 'suitcase',
             children: null
           }]
         }, {
@@ -70,13 +70,13 @@ export default Controller.extend({
             link: 'i-i-s-postamat17-база-ключей-l',
             caption: i18n.t('forms.application.sitemap.бизнес-сервер.i-i-s-postamat17-база-ключей-l.caption'),
             title: i18n.t('forms.application.sitemap.бизнес-сервер.i-i-s-postamat17-база-ключей-l.title'),
-            icon: 'book',
+            icon: 'address card',
             children: null
           }, {
             link: 'i-i-s-postamat17-уведомление-l',
             caption: i18n.t('forms.application.sitemap.бизнес-сервер.i-i-s-postamat17-уведомление-l.caption'),
             title: i18n.t('forms.application.sitemap.бизнес-сервер.i-i-s-postamat17-уведомление-l.title'),
-            icon: 'folder open',
+            icon: 'building',
             children: null
           }]
         }, {
@@ -100,7 +100,7 @@ export default Controller.extend({
             link: 'i-i-s-postamat17-посылка-l',
             caption: i18n.t('forms.application.sitemap.посылка.i-i-s-postamat17-посылка-l.caption'),
             title: i18n.t('forms.application.sitemap.посылка.i-i-s-postamat17-посылка-l.title'),
-            icon: 'briefcase',
+            icon: 'folder',
             children: null
           }]
         }

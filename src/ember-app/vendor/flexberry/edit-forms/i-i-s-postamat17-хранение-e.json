@@ -9,12 +9,12 @@
       "detailModelName": null
     },
     {
-      "master": null,
-      "displayAttributeName": null,
-      "required": false,
+      "master": "посылка",
+      "displayAttributeName": "номер",
+      "required": true,
       "relationName": "РегистрПосылки.Посылка",
       "projection": "ПосылкаL",
-      "detailModelName": null
+      "detailModelName": "i-i-s-postamat17-регистр-посылки"
     }
   ],
   "external": false,

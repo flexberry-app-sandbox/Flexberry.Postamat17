@@ -28,29 +28,7 @@
       "name": "РегистрПосылкиE",
       "modelName": "i-i-s-postamat17-регистр-посылки",
       "attrs": [],
-      "belongsTo": [
-        {
-          "lookupValue": "Номер",
-          "lookupValueField": "номер",
-          "relationName": "Посылка",
-          "belongsTo": [],
-          "hidden": false,
-          "attrs": [
-            {
-              "name": "номер",
-              "caption": "Номер",
-              "hidden": true,
-              "index": 1
-            }
-          ],
-          "index": 0,
-          "type": "standard",
-          "caption": "Посылка",
-          "name": "посылка",
-          "relatedTo": "i-i-s-postamat17-посылка",
-          "inverse": null
-        }
-      ],
+      "belongsTo": [],
       "hasMany": []
     }
   ],

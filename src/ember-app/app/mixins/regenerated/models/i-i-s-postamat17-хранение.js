@@ -67,9 +67,7 @@ export let defineProjections = function (modelClass) {
       номерЯчейки: attr('Номер ячейки', { index: 5, hidden: true })
     }, { index: 4, displayMemberPath: 'номерЯчейки' }),
     регистрПосылки: hasMany('i-i-s-postamat17-регистр-посылки', 'Регистр посылки', {
-      посылка: belongsTo('i-i-s-postamat17-посылка', 'Посылка', {
-        номер: attr('Номер', { index: 1, hidden: true })
-      }, { index: 0, displayMemberPath: 'номер' })
+      
     })
   });
 

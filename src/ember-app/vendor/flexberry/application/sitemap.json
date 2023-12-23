@@ -4,35 +4,14 @@
   "items": [
     {
       "link": null,
-      "menuName": "postamat17",
-      "caption": "Postamat17",
-      "title": "Postamat17",
+      "menuName": "постамат",
+      "caption": "Постамат",
+      "title": "Постамат",
       "children": [
-        {
-          "link": "i-i-s-postamat17-база-ключей-l",
-          "menuName": null,
-          "caption": "База ключей",
-          "title": "",
-          "children": null
-        },
-        {
-          "link": "i-i-s-postamat17-уведомление-l",
-          "menuName": null,
-          "caption": "Уведомление",
-          "title": "",
-          "children": null
-        },
         {
           "link": "i-i-s-postamat17-хранение-l",
           "menuName": null,
           "caption": "Хранение",
-          "title": "",
-          "children": null
-        },
-        {
-          "link": "i-i-s-postamat17-пользователь-l",
-          "menuName": null,
-          "caption": "Пользователь",
           "title": "",
           "children": null
         },
@@ -44,31 +23,84 @@
           "children": null
         },
         {
-          "link": "i-i-s-postamat17-посылка-l",
+          "link": "i-i-s-postamat17-ячейка-l",
           "menuName": null,
-          "caption": "Посылка",
+          "caption": "Ячейка",
           "title": "",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "служба-доставки",
+      "caption": "Служба доставки",
+      "title": "Служба доставки",
+      "children": [
+        {
+          "link": "i-i-s-postamat17-местоположение-l",
+          "menuName": null,
+          "caption": "Местоположение",
+          "title": "Местоположение",
           "children": null
         },
         {
           "link": "i-i-s-postamat17-служба-доставки-l",
           "menuName": null,
-          "caption": "Служба доставки",
-          "title": "",
+          "caption": "СлужбаДоставки",
+          "title": "Служба доставки",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "бизнес-сервер",
+      "caption": "БизнесСервер",
+      "title": "БизнесСервер",
+      "children": [
+        {
+          "link": "i-i-s-postamat17-база-ключей-l",
+          "menuName": null,
+          "caption": "БазаКлючей",
+          "title": "База ключей",
           "children": null
         },
         {
-          "link": "i-i-s-postamat17-местоположение-l",
+          "link": "i-i-s-postamat17-уведомление-l",
           "menuName": null,
-          "caption": "Местоположение",
-          "title": "",
+          "caption": "Уведомление",
+          "title": "Уведомление",
           "children": null
-        },
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "пользователь",
+      "caption": "Пользователь",
+      "title": "Пользователь",
+      "children": [
         {
-          "link": "i-i-s-postamat17-ячейка-l",
+          "link": "i-i-s-postamat17-пользователь-l",
           "menuName": null,
-          "caption": "Ячейка",
-          "title": "",
+          "caption": "Пользователь",
+          "title": "Пользователь",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "посылка",
+      "caption": "Посылка",
+      "title": "Посылка",
+      "children": [
+        {
+          "link": "i-i-s-postamat17-посылка-l",
+          "menuName": null,
+          "caption": "Посылка",
+          "title": "Посылка",
           "children": null
         }
       ]

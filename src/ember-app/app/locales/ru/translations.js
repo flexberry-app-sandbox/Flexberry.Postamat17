@@ -114,6 +114,62 @@ $.extend(true, translations, {
           caption: 'Главная',
           title: ''
         },
+        постамат: {
+          caption: 'Постамат',
+          title: 'Постамат',
+          'i-i-s-postamat17-хранение-l': {
+            caption: 'Хранение',
+            title: ''
+          },
+          'i-i-s-postamat17-постамат-l': {
+            caption: 'Постамат',
+            title: ''
+          },
+          'i-i-s-postamat17-ячейка-l': {
+            caption: 'Ячейка',
+            title: ''
+          }
+        },
+        'служба-доставки': {
+          caption: 'Служба доставки',
+          title: 'Служба доставки',
+          'i-i-s-postamat17-местоположение-l': {
+            caption: 'Местоположение',
+            title: 'Местоположение'
+          },
+          'i-i-s-postamat17-служба-доставки-l': {
+            caption: 'СлужбаДоставки',
+            title: 'Служба доставки'
+          }
+        },
+        'бизнес-сервер': {
+          caption: 'БизнесСервер',
+          title: 'БизнесСервер',
+          'i-i-s-postamat17-база-ключей-l': {
+            caption: 'БазаКлючей',
+            title: 'База ключей'
+          },
+          'i-i-s-postamat17-уведомление-l': {
+            caption: 'Уведомление',
+            title: 'Уведомление'
+          }
+        },
+        пользователь: {
+          caption: 'Пользователь',
+          title: 'Пользователь',
+          'i-i-s-postamat17-пользователь-l': {
+            caption: 'Пользователь',
+            title: 'Пользователь'
+          }
+        },
+        посылка: {
+          caption: 'Посылка',
+          title: 'Посылка',
+          'i-i-s-postamat17-посылка-l': {
+            caption: 'Посылка',
+            title: 'Посылка'
+          }
+        },
         postamat17: {
           caption: 'Postamat17',
           title: 'Postamat17',

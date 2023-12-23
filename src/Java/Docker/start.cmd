@@ -1,0 +1,1 @@
+docker-compose -p postamat17-java up -d

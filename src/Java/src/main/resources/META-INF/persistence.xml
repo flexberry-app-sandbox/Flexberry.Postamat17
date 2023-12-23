@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1"
+	xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistencehttp://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="Olingo4PG">
+        <class>Postamat17.model.BazaKlyuchej</class>
+        <class>Postamat17.model.Klyuch</class>
+        <class>Postamat17.model.Uvedomlenie</class>
+        <class>Postamat17.model.Xranenie</class>
+        <class>Postamat17.model.Polzovatel</class>
+        <class>Postamat17.model.RegistrXran</class>
+        <class>Postamat17.model.RegistrPosylki</class>
+        <class>Postamat17.model.Postamat</class>
+        <class>Postamat17.model.Posylka</class>
+        <class>Postamat17.model.SluzhbaDostavki</class>
+        <class>Postamat17.model.Mestopolozhenie</class>
+        <class>Postamat17.model.YAchejka</class>
+        <class>Postamat17.model.FlexberryAdvLimit</class>
+        <class>Postamat17.model.NewPlatformFlexberryFlexberryUserSetting</class>
+        <class>Postamat17.model.NewPlatformFlexberryServicesLock</class>
+        <class>Postamat17.model.IISCaseberryLoggingObjectsApplicationLog</class>
+
+    </persistence-unit>
+</persistence>
